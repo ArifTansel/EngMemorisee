@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel= "stylesheet" type= "text/css" href= "../static/styles/mstyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">          
+    <title>Memorise</title>
+</head>
+<body style="background-color:#100e35 ;" >
+    <div class="qtab">
+        <div class="question">
+            {{word[question].term}}
+        </div>
+        {% if done %}
+        <div>bitti!!</div>
+        {% else %}
+        {% endif %}
+        <div class="divider"></div>
+        {% if right == 0 %}
+        <div style="font-size:1.4rem ; color: red;text-align: center; "> {{answer}} Cevabı Yanlistir!!!!!</div>     
+        {% elif right == 1 %}
+        <div style="font-size:1.4rem ; color: green;text-align: center; "> Tebrikler!!!!!</div>
+        {% endif %}
+        <form action="/answer" method="post">
+        <div class="input-group mb-3 answer">
+            <input type="text" name="answer" class="form-control">
+        </div>
+        <div class="button">
+            <button type="submit" class="btn btn-secondary">Next</button>
+        </div>
+        </form>
+
+
+    </div>
+</body>
+</html>

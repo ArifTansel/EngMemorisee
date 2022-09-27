@@ -1,0 +1,94 @@
+.buttons {
+    position: absolute;
+    margin-left: 10%; 
+    width: 75%;
+    height: 500px;
+}
+
+thead{
+    text-align: center;
+}
+
+.memorise{
+    position: absolute;
+    margin-top:50px;
+    margin-left:45% ;
+}
+
+.add-button{
+    position: absolute;
+    right: 48%;
+}
+
+.add-word{
+    position: absolute;
+    margin-top:200px ;
+}
+
+.title{
+    position: absolute;
+    color: rgb(171, 171, 172);
+    font-family: 'Graffiti font', sans-serif;
+    margin-top: 10px;
+    margin-left: 20%;
+    font-size: 100px;
+    font-weight: bolder;
+    text-shadow: 5px 4px #ffffff;
+}
+
+.title-wordlist{
+    width: 100%;
+    color: rgb(171, 171, 172);
+    font-size: 25px;
+}
+
+.solid-divider{
+    border-top:2px solid #ffffff;
+}
+
+.word-list{
+    border-top-right-radius:3% ;
+    border-top-left-radius:3% ;
+    position: absolute;
+    background-color: #6d73ad4e;
+    margin-top: 25%;
+    margin-left: 10%;
+    width: 75%;
+    height: 500px ;
+}
+   
+.word-list td {
+    width: 50%;
+}
+
+.term{
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.defination{
+    text-align: start;
+    
+    color: #ffffff;
+}
+.defination::before{
+    content: "";
+
+}
+
+.title{
+    border-bottom: 1px solid #ffffff ;
+}
+
+.word{
+    border-bottom: 1px solid #ffffff ;
+}
+
+.error{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    text-align: center;
+    color: red;
+    margin-top: 9rem;
+}

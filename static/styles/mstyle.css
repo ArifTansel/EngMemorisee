@@ -1,0 +1,77 @@
+.qtab{
+    margin-top: 10rem;
+    margin-left: 20rem;
+    width: 60rem;
+    height: 30rem;
+    background-color: #6d73ad4e;
+    border-radius:3% ;
+    box-shadow: 1rem 1rem 1rem  #1b1946;
+}
+
+
+.question{
+
+    margin : 50px ;
+    color: #ffff;
+    font-size: 50px;
+    text-shadow: 1rem 1rem 1rem #1b1946 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.answers{
+    width: 60rem;
+    height: 20rem;
+}
+
+.answer4{
+    float: right;
+}
+.answer2{
+    float: right;
+}
+
+.answers button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    box-shadow: 1rem 1rem 1rem #1b1946 ;
+    width: 20rem;
+    height: 3rem;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    border-top:2px solid #1b1946 ;
+}
+
+.answer{
+
+    margin-top: 5rem;
+}
+
+.answer input {
+    text-align: center;
+    color: white;
+    background-color: #111020;
+}
+
+.answer button{
+    color: white;
+    background-color: #111020;
+}
+
+.answer input:focus{
+    color: white;
+    background-color: #1b1946;
+}
+
+.answer button:hover{
+    color: white;
+    background-color: #1d1b41;
+}
+
+.button{
+    margin-top: 5rem;
+    margin-left: 45%;
+}
+
+
